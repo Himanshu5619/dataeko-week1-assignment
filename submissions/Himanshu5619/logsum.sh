@@ -39,6 +39,7 @@ echo
 echo "Errors by service"
 
 # Count ERRORs for each service
+# Field 3 is the log level and field 4 is the service name.
 errors=$(awk '$3=="ERROR" {print $4}' "$file" | sort | uniq -c | sort -nr)
 
 # Print services and counts
