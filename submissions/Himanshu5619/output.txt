@@ -1,0 +1,18 @@
+LOG SUMMARY
+===========
+File:  app.log
+Lines:     2000
+
+Level counts
+  INFO    1437
+  WARN    322
+  ERROR   241
+
+Errors by service
+  search                    116
+  checkout-api              51
+  inventory                 29
+  auth-service              29
+  mailer                    16
+
+Worst service: search (116 errors)
